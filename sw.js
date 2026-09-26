@@ -1,8 +1,10 @@
-const CACHE_NAME = "lifeos-v1";
+const CACHE_NAME = "lifeos-v2";
 const FILES = [
   "./",
   "./index.html",
-  "./manifest.json"
+  "./manifest.json",
+  "./icon-192.png",
+  "./icon-512.png"
 ];
 
 self.addEventListener("install", (event) => {
